@@ -16,5 +16,5 @@ DEBUG = False # if you want see the debug msgs set True
 
 listen_port_inject = 8686
 proxy_opsel = ('10.19.19.19',8080)
-data_inject = 'GET http://arenamusik.netizee.com HTTP/1.0 \r\n'
+data_inject = 'GET http://................... HTTP/1.0 \r\n'
 	      
