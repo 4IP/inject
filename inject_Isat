@@ -1,0 +1,20 @@
+#!/usr/bin/python
+
+import os,sys,thread,socket
+
+__version__ = '1.0.0 Beta
+__author__ = 'AJR_Parker'
+
+#**************** CONSTANT VARIABLES **************
+BACKLOG = 50 # many pending connections
+MAX_DATA_RECV = 4096 # max number of bytes to receive
+DEBUG = False # if you want see the debug msgs set True
+
+#**************************************************
+#**************** MAIN PROGRAM ********************
+#**************************************************
+
+listen_port_inject = 8686
+proxy_opsel = ('10.19.19.19',8080)
+data_inject = 'GET http://arenamusik.netizee.com HTTP/1.0 \r\n'
+	      
